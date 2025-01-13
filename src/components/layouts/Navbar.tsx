@@ -84,22 +84,7 @@ const Navbar = ({ scrolled }: { scrolled: boolean }) => {
                 </li>
               ))}
             </ul>
-            <Link to="/contact">
-              <button
-                className={`relative border overflow-hidden py-2 px-4 font-medium text-sm group transition-all duration-300 ${scrolling
-                  ? 'border-black text-black hover:text-white'
-                  : 'border-white text-white hover:text-black'
-                  }`}
-              >
-                <span
-                  className={`absolute inset-0 transition-all duration-300 ${scrolling
-                    ? 'bg-red-600 group-hover:w-full'
-                    : 'bg-white group-hover:w-full'
-                    } w-0`}
-                ></span>
 
-                <span className="relative">Request For Quote</span>
-              </button></Link>
           </>
         ) : (
           <div className="flex items-center gap-4">
