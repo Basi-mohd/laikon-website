@@ -1,4 +1,4 @@
-import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaClock } from "react-icons/fa";
+import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 import batteryManufacture from "../assets/images/image-2-84.jpg";
 import Navbar from "@/components/layouts/Navbar";
 import Footer from "@/components/layouts/Footer";

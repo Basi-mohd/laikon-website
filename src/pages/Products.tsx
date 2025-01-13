@@ -8,7 +8,7 @@ import clBattery from "../assets/images/cl-laikon-battery.png";
 import slBattery from "../assets/images/sl-laikon-battery.png";
 import batteryManufacture from "../assets/images/image-2-84.jpg";
 
-import { FaBatteryFull, FaBatteryThreeQuarters, FaBolt, FaRecycle, FaRedoAlt, FaThermometerHalf, FaWeightHanging } from 'react-icons/fa';
+import { FaBolt, FaRecycle, FaThermometerHalf, FaWeightHanging } from 'react-icons/fa';
 
 const batterySeries = [
     {

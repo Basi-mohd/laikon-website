@@ -1,7 +1,7 @@
 import Footer from "@/components/layouts/Footer";
 import Navbar from "@/components/layouts/Navbar";
 import batteryManufacture from "../assets/images/image-2-84.jpg";
-import { FaBullseye, FaEye, FaHeart, FaCheckCircle, FaLeaf } from "react-icons/fa";
+import { FaBullseye, FaEye,  FaCheckCircle, FaLeaf } from "react-icons/fa";
 import { useEffect } from "react";
 
 const AboutUs = () => {

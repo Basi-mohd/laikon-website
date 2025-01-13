@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import navLogo from '../../assets/images/nav-logo.svg';
 import colorednavLogo from '../../assets/images/nav-logo-color.svg';
-import { BrowserRouter, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const navLinks = [
   { title: 'Home', url: '/' },
