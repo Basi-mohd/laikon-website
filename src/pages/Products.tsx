@@ -7,7 +7,7 @@ import clBattery from "../assets/images/cl-laikon-battery.png";
 import slBattery from "../assets/images/sl-laikon-battery.png";
 import batteryManufacture from "../assets/images/image-2-84.jpg";
 
-import { FaBolt, FaRecycle, FaThermometerHalf, FaWeightHanging } from 'react-icons/fa';
+import { FaBolt, FaRecycle, FaThermometerHalf } from 'react-icons/fa';
 
 const batterySeries = [
     {
@@ -129,7 +129,6 @@ const BatteryProductPage: React.FC = () => {
 
     const specs = [
         { icon: <FaBolt />, label: "Voltage", value: "12V" },
-        { icon: <FaWeightHanging />, label: "Weight", value: "45 kg" },
         { icon: <FaThermometerHalf />, label: "Operating Temperature", value: "-20°C to 60°C" },
         { icon: <FaRecycle />, label: "Cycle Life", value: "500+ cycles" },
     ];
