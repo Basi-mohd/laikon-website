@@ -22,9 +22,9 @@ const AboutUs = () => {
                 </div>
             </section>
 
-            <section className="py-16">
+            <section className="md:py-16 py-8">
                 <div className="container mx-auto px-6 lg:px-20 flex w-full justify-between flex-col md:flex-row">
-                    <h2 className="text-5xl font-bold text-black mb-6 md:w-2/4 leading-normal">Empowering Futures with  <span className="text-red-600"> Sustainable Energy</span> </h2>
+                    <h2 className="text-3xl md:text-5xl font-bold text-black mb-6 md:w-2/4 leading-normal">Empowering Futures with  <span className="text-red-600"> Sustainable Energy</span> </h2>
                     <p className="text-lg mb-4 leading-loose md:w-2/4">
                         Laikon Batteries, headquartered in Palakkad, Kerala, is a pioneer in
                         manufacturing high-quality batteries, inverters, UPS systems, solar
@@ -73,7 +73,7 @@ const AboutUs = () => {
                 </div>
             </section>
             {/* What Sets Us Apart Section */}
-            <section className="py-16 bg-gray-50">
+            <section className="md:py-16 py-8 bg-gray-50">
                 <div className="container mx-auto px-6 lg:px-20">
                     <h2 className="text-4xl font-extrabold text-red-600 mb-8 text-center">
                         What Sets Us Apart
@@ -113,7 +113,7 @@ const AboutUs = () => {
             </section>
 
             {/* Join Us on Our Journey Section */}
-            <section className="py-16 bg-gray-100">
+            <section className="md:py-16 py-8 bg-gray-100">
                 <div className="container mx-auto px-6 lg:px-20 text-center">
                     <h2 className="text-4xl font-extrabold text-red-600 mb-8">
                         Join Us on Our Journey

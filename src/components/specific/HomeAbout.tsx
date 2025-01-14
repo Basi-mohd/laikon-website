@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const HomeAbout = () => {
     return (
-        <div className="flex flex-col md:flex-row items-center justify-between bg-white p-8 md:p-12 w-full max-w-6xl">
+        <div className="flex flex-col md:flex-row items-center justify-between bg-white p-8 md:p-12 w-full max-w-6xl animation-appear-scroll-right ">
             {/* Text Section */}
             <div className="md:w-1/2">
                 <h1 className="text-4xl md:text-5xl font-bold text-gray-800 !leading-tight text-center md:text-start">

@@ -20,10 +20,10 @@ const Features = () => {
   ];
 
   return (
-    <div className="flex  flex-col md:flex-row md:justify-center items-center md:items-start space-y-2 md:space-y-0 md:space-x-10 w-full max-w-5xl ">
+    <div className="px-8 md:px-0 flex  flex-col md:flex-row md:justify-center items-center md:items-start space-y-6 md:space-y-0 md:space-x-10 w-full max-w-5xl ">
       {features.map((feature, index) => (
-        <div key={index} className="flex gap-4">
-          <div className="flex justify-center items-center border border-red-700 text-black rounded-full md:w-14 w-12 h-12 md:mx-auto mb-4 ">
+        <div key={index} className="flex gap-4 animation-appear-up ">
+          <div className="flex justify-center items-center border border-red-700 text-black rounded-full md:w-14 w-12 h-10 md:h-12 md:mx-auto mb-4 ">
             {feature.icon}
           </div>
           <div>
