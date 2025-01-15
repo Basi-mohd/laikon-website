@@ -53,6 +53,12 @@ const batterySeries = [
         image: slBattery,
         details: [
             {
+                type: 'IT 100',
+                capacity: '100 AH',
+                dimensions: '505 x 188 x 415',
+                warranty: '60',
+            },
+            {
                 type: 'IT 160',
                 capacity: '160 AH',
                 dimensions: '505 x 188 x 415',
