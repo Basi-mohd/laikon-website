@@ -225,7 +225,7 @@ const Footer = () => {
                     </svg>
 
                     <span className="text-white transition group-hover:text-white/75">
-                    +91 89 2185 5810
+                    +91 80 8965 1956
                     </span>
                   </a>
                 </li>

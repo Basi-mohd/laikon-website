@@ -32,7 +32,7 @@ const ContactUs = () => {
                             </div>
                             <h2 className="text-xl font-semibold mb-2">Call Us</h2>
                             <p className="text-lg text-gray-700 leading-relaxed">
-                                +91 89 2185 5810
+                                +91 80 8965 1956
                             </p>
                         </div>
 
